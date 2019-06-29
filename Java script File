@@ -1,0 +1,8 @@
+$(function(){
+
+txt="Loading..."
+for(var i=0,d=0; i<txt.length; i++,d+=0.1){
+    $("body").append("<div class='a' style='animation-delay:"+d+"s'>"+txt[i]+"</div>")
+}
+$("body").append("</br><div id='line'></div>");
+})
